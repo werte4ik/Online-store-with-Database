@@ -22,3 +22,42 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging and build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg
+*.egg-info/
+install/
+pip-wheel-metadata/
+wheels/
+
+# Test and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local configuration and database files
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
